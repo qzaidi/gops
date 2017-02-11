@@ -117,6 +117,7 @@ func printIfGo(pr ps.Process) {
 	for _, s := range symbols {
 		if s.Name == "runtime.buildVersion" {
 			ok = true
+			break
 		}
 	}
 
